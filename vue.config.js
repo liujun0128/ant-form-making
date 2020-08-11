@@ -43,5 +43,6 @@ const vueConfig = {
       }
     }
   },
+  runtimeCompiler: true
 }
 module.exports = vueConfig

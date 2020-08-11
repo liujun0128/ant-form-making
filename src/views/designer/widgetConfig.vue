@@ -739,12 +739,14 @@
 <script>
 import icons from './config/icons'
 import regs from './config/regs'
+import draggable from 'vuedraggable'
 /* 图标选择当前项标记 */
 let v = ''
 /* 正则选择当前项标记 */
 let regIndex = -1
 export default {
   name: 'WidgetConfig',
+  components: { draggable },
   props: {
     item: {
       type: Object,
