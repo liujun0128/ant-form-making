@@ -1,0 +1,85 @@
+.ant-collapse-content-box {
+  padding: 1px !important;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.padding-sm {
+  padding: 5px;
+}
+
+.padding-lg {
+  padding: 10px;
+}
+
+.padding-sm-lr {
+  padding: 0 5px;
+}
+
+.margin-left-sm {
+  margin-left: 5px;
+}
+.margin-left-lg {
+  margin-left: 10px;
+}
+
+.margin-right-sm {
+  margin-right: 5px;
+}
+
+.margin-top-sm {
+  margin-top: 5px;
+}
+.margin-tb-lg{
+  margin: 20px 0;
+}
+
+.margin-bottom-sm{
+  margin-bottom: 5px;
+}
+.margin-top-lg {
+  margin-top: 10px;
+}
+.margin-left-xxl {
+  margin-left: 30px;
+}
+.size-lg {
+  font-size: 18px;
+}
+.size-xxl {
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+.color-red{
+  color: #FE0000;
+}
+.color-red:hover{
+  color: #FE0000;
+}
+.pointer{
+  cursor: pointer;
+}
+.color-blue{
+  color: #1890FF;
+}
+
+.ghost {
+  background: #F56C6C;
+  border: 2px solid #F56C6C;
+  outline-width: 0;
+  height: 3px;
+  box-sizing: border-box;
+  font-size: 0;
+  content: '';
+  overflow: hidden;
+  padding: 0;
+}
+/*复选框样式*/
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0px;
+}
