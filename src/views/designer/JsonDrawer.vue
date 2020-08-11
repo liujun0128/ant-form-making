@@ -13,7 +13,7 @@
 <script>
 import * as monaco from 'monaco-editor'
 import 'monaco-editor/esm/vs/editor/contrib/find/findController.js'
-import beautifier from 'beautifier'
+import beautifier from 'js-beautify'
 import { saveAs } from 'file-saver'
 import ClipboardJS from 'clipboard'
 export default {

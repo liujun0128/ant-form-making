@@ -42,7 +42,7 @@ import { makeUpHtml } from './util/html'
 import { makeUpJs } from './util/js'
 import { makeUpCss } from './util/css'
 
-import beautifier from 'beautifier'
+import beautifier from 'js-beautify'
 import { beautifierConf, buildScript, buildStyle } from './util/index'
 
 export default {
